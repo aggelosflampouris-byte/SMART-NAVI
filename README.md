@@ -4,10 +4,10 @@ Welcome to the main repository for the SMART-NAVI application. This document pro
 
 ## Project Structure
 
-This project contains multiple components. The primary one right now is the frontend application.
+This project is a monorepo containing the following components:
 
 *   `frontend/`: The user interface built with React and Vite.
-*   `backend/`: (Placeholder for the backend services)
+*   `backend/`: The API server built with Python and FastAPI.
 
 ## Getting Started
 
