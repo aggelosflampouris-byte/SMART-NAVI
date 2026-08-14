@@ -13,10 +13,10 @@ You will need Python 3.8+ installed on your machine.
 We strongly recommend using a virtual environment to manage project dependencies. To create and activate a virtual environment, run the following commands from the `backend` directory:
 
 ```bash
-# Create a virtual environment named 'venv'
+# Create (once) a virtual environment named 'venv'
 python3 -m venv venv
 
-# Activate the virtual environment
+# Activate (once, before installing and running anything) the virtual environment
 # On macOS and Linux:
 source venv/bin/activate
 # On Windows:
