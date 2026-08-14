@@ -1,0 +1,8 @@
+# Εικονικά περιβάλλοντα Python
+venv/
+backend/venv/
+__pycache__/
+
+# Αρχεία μοντέλων Τεχνητής Νοημοσύνης
+*.pt
+yolov8n.pt
