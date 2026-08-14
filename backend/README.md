@@ -1,6 +1,6 @@
 # SMART-NAVI Backend
 
-This is the backend for the SMART-NAVI application, built with [Python](https://www.python.org/) and [FastAPI](https://fastapi.tiangolo.com/).
+This is the backend for the SMART-NAVI application, built with Python and FastAPI.
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Prerequisites
 
-You will need [Python 3.8+](https://www.python.org/downloads/) installed on your machine.
+You will need Python 3.8+ installed on your machine.
 
 We strongly recommend using a virtual environment to manage project dependencies. To create and activate a virtual environment, run the following commands from the `backend` directory:
 
