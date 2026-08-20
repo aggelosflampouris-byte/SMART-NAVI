@@ -64,17 +64,18 @@ def read_root():
 @app.get("/obstacles")
 def get_obstacles():
     """Ανάκτηση όλων των εμποδίων σε μορφή GeoJSON FeatureCollection."""
+    print("-> Εκτέλεση GET /obstacles: Ανάκτηση δεδομένων από Firestore...")
     features = []
     if db:
         docs = db.collection("obstacles").stream()
         for doc in docs:
             features.append(doc.to_dict())
             
+    print(f"-> Ολοκληρώθηκε: Επιστράφηκαν {len(features)} εμπόδια.")
     return {
         "type": "FeatureCollection",
         "features": features
     }
-
 @app.post("/upload-image")
 async def upload_image(
     background_tasks: BackgroundTasks,
